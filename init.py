@@ -1,3 +1,5 @@
+import csv
+
 def startFeature():
     stdLevel = str(input("Please enter your student level here (G for Graduate, U for Undergraduate, B for Both): "))
     if stdLevel == "U":
